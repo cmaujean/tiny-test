@@ -1,5 +1,6 @@
+---
 mountpoint: '/tiny-test'
 runs:
   hello:
-    command: ['ruby', 'hello.rb']
+    command: ['/bin/bash', 'hello.sh']
     image: 'ubuntu:18.04'
